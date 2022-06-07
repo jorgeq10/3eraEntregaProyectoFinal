@@ -1,0 +1,17 @@
+.bienvenida {
+    height: 80vh;
+    background-image: url(./img/fondo2.jpg);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+    .saludo {
+        grid-column: 3 / 6;
+        grid-row: 3 / 7;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
